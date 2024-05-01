@@ -20,6 +20,36 @@
             height: 50px;
             font-size: 30px;
         }
+        nav{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            align-items: center;
+            height: 40px;
+            border-bottom: white solid;
+            color: white;
+           
+        }
+        .img{
+            width: 600px;
+            height: auto;
+            width: clamp(5rem, 45vw, 15rem);
+            height: clamp(2rem, 45vh, 15rem);
+            position: absolute;
+            top: 35%;
+            right: 20%;
+        }
+        img{
+            max-width: 80%;
+            
+        }
+        .txt{
+            color: white;
+            position: absolute;
+            top: 40%;
+            width: 400px;
+            left: 20%;
+        }
     </style>
 </head>
 <body>
@@ -31,7 +61,19 @@
         |
         <a href="project.html">Meine Projekte</a>
         |
-        <a href="contact.html"></a>
+        <a href="contact.html">Kontakt</a>
     </nav>
+    <section>
+        <div class="img">
+            <img src="Foto Florian Rosenbaum.jpg" alt="">
+        </div>
+        <div class="txt">
+            <h4>Herzlich willkommen zu meinem Portfolio! Als werdender Fachinformatiker im Bereich der Anwendungsentwicklung
+                 biete ich Ihnen einen Überblick über meine vielfältigen
+                 Projekte und Erfahrungen. Von Grafikdesign bis hin zu Webentwicklung finden Sie hier meine besten Arbeiten,
+                 die meine Leidenschaft und Professionalität widerspiegeln. Tauchen Sie ein und entdecken Sie, was mich antreibt und inspiriert.
+                  Vielen Dank für Ihr Interesse!</h4>
+        </div>
+    </section>
 </body>
 </html>
